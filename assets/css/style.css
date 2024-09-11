@@ -55,6 +55,9 @@ min-width: 1220px;
 .center{
     align-items: center;
 }
+.text_center{
+    text-align: center;
+}
 .justify_center{
     justify-content: center;
 }
@@ -180,6 +183,7 @@ a{
 
     .main_title{
         font-size: 5rem;
+        padding: 3rem 0rem;
         
     }
     .access, .cancel, .hero_img{
@@ -208,19 +212,42 @@ a{
     }
 
 
-    .col4{
-        border: 0.5px solid black;
-        padding: 0.25rem; ;
-    }
+    
+
+.card{
+    border: 0.5px solid black;
 }
 
+.col4, .sub_type{
+   border-bottom: 0.5px solid black;
+    padding: 0.25rem; ;
+}
 
-
-
-.main_title, .radio_invoice{
+ .radio_invoice{
     padding: 2rem 0rem;
 }
+.sub_details{
+    padding: 1rem;
+}
 
+.sub_name{
+    margin: 1rem 0rem;
+}
+
+.price_box{
+    margin-bottom: .5rem;
+}
+.price{
+    font-size: .80rem;
+   
+}
+.deadline{
+    margin-bottom: 3rem;
+}
+
+
+
+}
 /* #endregion MAIN */
 
 
