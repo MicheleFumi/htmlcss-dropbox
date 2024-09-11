@@ -90,6 +90,11 @@ a{
     margin: auto;
 
 }
+.container_70{
+    width: 70%;
+    margin: auto;
+
+}
 .button{
     background-color: #0061ff;
 }
@@ -152,7 +157,7 @@ a{
 
     .main_title{
         font-size: 5rem;
-        padding: 2rem 0rem;
+        
     }
     .access, .cancel, .hero_img{
         padding: 2rem 0rem;
@@ -162,8 +167,23 @@ a{
         padding: 0.5rem;
     }
 
+    
+
+
+
 }
 
+.plan{
+
+    
+}
+
+
+
+
+.business_title, .main_title{
+    padding: 2rem 0rem;
+}
 
 /* #endregion MAIN */
 
