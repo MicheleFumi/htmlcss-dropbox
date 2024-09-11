@@ -64,6 +64,7 @@ min-width: 1220px;
 
 /* #endregion COLOR */
 
+
 /* #region DEBUG */
 
 
@@ -89,11 +90,13 @@ a{
     margin: auto;
 
 }
-
+.button{
+    background-color: #0061ff;
+}
 
 /* #region HEADER */
 #app_header{
-   
+    background-color: white;
     position: sticky;
     top: 0;
     left: 0;
@@ -110,10 +113,8 @@ a{
    .tag_rt{
     margin-left: 1rem;
    }
-
-   .button_head{
-    background-color: #0061ff;
-    padding: 0.25rem 0.5rem;
+    .start{
+        padding: 0.25rem 0.6rem;
    
    }
    /* .hidden{
@@ -135,7 +136,7 @@ a{
 
     .container_80{
         
-
+        
 
 
 
@@ -143,11 +144,16 @@ a{
     }
 
     .main_title{
-        justify-content: flex-start;
-        text-align: center;
         font-size: 5rem;
+        padding: 2rem 0rem;
     }
-
+    .access, .cancel, .hero_img{
+        padding: 2rem 0rem;
+    }
+    
+    .trial{
+        padding: 0.5rem;
+    }
 
 }
 
