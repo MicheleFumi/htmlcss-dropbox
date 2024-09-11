@@ -34,6 +34,7 @@ min-width: 1220px;
 .debug{
     background-color: aqua;
     margin: 2px solid black;
+    width: 5rem;
 }
 
 
@@ -50,7 +51,17 @@ min-width: 1220px;
 
 
 /* #region HEADER */
+.app_header{
+    
+    .container_L{
+        padding: 2rem;
+    }
 
+
+
+
+
+}
 
 /* #endregion HEADER */
 
