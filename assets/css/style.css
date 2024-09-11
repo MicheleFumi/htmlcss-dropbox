@@ -105,6 +105,7 @@ a{
     
     .container{
         padding: 1rem;
+        position: relative;
     }
 
    .tag_lt{
@@ -117,15 +118,20 @@ a{
         padding: 0.25rem 0.6rem;
    
    }
-   /* .hidden{
-    border-bottom: 1px solid black;
-    display: none;
-   } */
+   
 }
-/* ANCHORTAG */
+/* #region HOVER  */
+.hidden{
+   
+}
+.hidden:hover{
+    border-bottom: 1px solid black;
+    z-index: 20;
+    position: relative;
+    bottom: 0;
+}
 
-
-
+/* #endregion HOVER  */
 
 /* #endregion HEADER */
 
