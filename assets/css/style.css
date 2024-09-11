@@ -15,9 +15,18 @@ body{
 min-width: 1220px;
 }
 
+.col4{
+    size: calc((100 / 12)*4);
+
+}
 
 .col6{
     size: calc((100 / 12)*6);
+
+}
+
+.col8{
+    size: calc((100 / 12)*8);
 
 }
 
@@ -75,6 +84,12 @@ a{
 .white_text{
     color: white;
 }
+.container_80{
+    width: 80%;
+    margin: auto;
+
+}
+
 
 /* #region HEADER */
 #app_header{
@@ -115,6 +130,26 @@ a{
 
 
 /* #region MAIN */
+.jumbotron{
+    background-color: #b4d0e7;
+
+    .container_80{
+        
+
+
+
+
+
+    }
+
+    .main_title{
+        justify-content: flex-start;
+        text-align: center;
+        font-size: 5rem;
+    }
+
+
+}
 
 
 /* #endregion MAIN */
