@@ -79,6 +79,11 @@ a{
 /* #region HEADER */
 #app_header{
    
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
     
     .container{
         padding: 1rem;
@@ -96,8 +101,15 @@ a{
     padding: 0.25rem 0.5rem;
    
    }
-
+   /* .hidden{
+    border-bottom: 1px solid black;
+    display: none;
+   } */
 }
+/* ANCHORTAG */
+
+
+
 
 /* #endregion HEADER */
 
