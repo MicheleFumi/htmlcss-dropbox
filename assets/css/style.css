@@ -39,7 +39,10 @@ min-width: 1220px;
 .d_flex{
     display: flex;
 }
+#app_flex{
+    display: flex;
 
+}
 .start{
     justify-content: flex-start;
 }
@@ -77,14 +80,13 @@ min-width: 1220px;
 /* #endregion DEBUG */
 
 
-
 /* #region UTILITY */
 a{
     text-decoration: none;
     color: rgb(46, 46, 46);
     
 }
-/* #endregion UTILITY */
+
 .white_text{
     color: white;
 }
@@ -107,6 +109,10 @@ a{
     padding: 2rem 0rem;
 }
 
+
+/* #endregion UTILITY */
+
+
 /* #region HEADER */
 #app_header{
     background-color: white;
@@ -114,14 +120,8 @@ a{
     top: 0;
     left: 0;
     z-index: 1000;
-
-    
-    .container{
-        padding: 1rem;
-    
-    }
-
-   .tag_lt{
+}
+    .tag_lt{
     margin-right: 1rem;
    }
    .tag_rt{
@@ -129,10 +129,13 @@ a{
    }
     .start{
         padding: 0.25rem 0.6rem;
-   
    }
-   
-}
+
+    .container{
+        padding: 1rem;
+
+    }
+
 /* #region HOVER  */
 .start:hover:hover{
    background-color: #0090ff;
