@@ -137,6 +137,9 @@ a{
     top: 0;
     left: 0;
     z-index: 1000;
+    box-shadow:0 6px 13px #0061ff;
+        
+
 }
     .tag_lt{
     margin-right: 1rem;
@@ -150,6 +153,7 @@ a{
 
     .container{
         padding: 1rem;
+        
 
     }
 
