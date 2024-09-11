@@ -15,18 +15,21 @@ body{
 min-width: 1220px;
 }
 
+
+
+
 .col4{
-    size: calc((100 / 12)*4);
+    width: calc((100% / 12) * 4);
 
 }
 
 .col6{
-    size: calc((100 / 12)*6);
+    width: calc((100% / 12) * 6);
 
 }
 
 .col8{
-    size: calc((100 / 12)*8);
+    width: calc((100% / 12) * 8);
 
 }
 
@@ -97,6 +100,11 @@ a{
 }
 .button{
     background-color: #0061ff;
+}
+
+.section_title{
+    font-size: 2.5rem;
+    padding: 2rem 0rem;
 }
 
 /* #region HEADER */
@@ -175,13 +183,25 @@ a{
 
 .plan{
 
-    
+    .radio_right{
+        margin-right: 2rem;
+    }
+
+    .radio_invoice{
+
+        margin-bottom: 2rem;
+    }
+
+
+    .col4{
+        border: 0.5px solid black;
+    }
 }
 
 
 
 
-.business_title, .main_title{
+.main_title, .radio_invoice{
     padding: 2rem 0rem;
 }
 
