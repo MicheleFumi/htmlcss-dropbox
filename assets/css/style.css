@@ -55,6 +55,12 @@ min-width: 1220px;
 .center{
     align-items: center;
 }
+.justify_center{
+    justify-content: center;
+}
+.vertical_al{
+    vertical-align: middle;
+}
 /*#endregion FLEX SETTING */
 
 
@@ -62,7 +68,7 @@ min-width: 1220px;
 :root{
     --drop_button: #0061ff; 
     --drop_jumbo_bg: #b4d0e7; 
-
+    --drop_light_text: #656262; 
 
 
 }
@@ -83,7 +89,7 @@ min-width: 1220px;
 /* #region UTILITY */
 a{
     text-decoration: none;
-    color: rgb(46, 46, 46);
+    color: #656262;
     
 }
 
@@ -109,6 +115,9 @@ a{
     padding: 2rem 0rem;
 }
 
+.light_text{
+    color: var(--drop_light_text);
+}
 
 /* #endregion UTILITY */
 
@@ -135,6 +144,9 @@ a{
         padding: 1rem;
 
     }
+
+    
+    
 
 /* #region HOVER  */
 .start:hover:hover{
@@ -198,6 +210,7 @@ a{
 
     .col4{
         border: 0.5px solid black;
+        padding: 0.25rem; ;
     }
 }
 
