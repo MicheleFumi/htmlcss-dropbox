@@ -105,7 +105,7 @@ a{
     
     .container{
         padding: 1rem;
-        position: relative;
+    
     }
 
    .tag_lt{
@@ -121,14 +121,15 @@ a{
    
 }
 /* #region HOVER  */
-.hidden{
-   
+.start:hover:hover{
+   background-color: #0090ff;
 }
+.trial:hover{
+    background-color: #0090ff;
+ }
 .hidden:hover{
     border-bottom: 1px solid black;
-    z-index: 20;
-    position: relative;
-    bottom: 0;
+    
 }
 
 /* #endregion HOVER  */
