@@ -1,0 +1,67 @@
+
+/* #region COMMON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+
+}
+body{
+
+min-width: 1220px;
+}
+
+/* #endregion COMMON */
+
+
+/* #region COLOR */
+:root{
+    --drop_button: #0061ff; 
+    --drop_jumbo_bg: #b4d0e7; 
+
+
+
+}
+
+
+/* #endregion COLOR */
+
+/* #region DEBUG */
+
+.debug{
+    background-color: aqua;
+    margin: 2px solid black;
+}
+
+
+/* #endregion DEBUG */
+
+
+
+/* #region UTILITY */
+.d_flex{
+    display: flex;
+}
+
+/* #endregion UTILITY */
+
+
+/* #region HEADER */
+
+
+/* #endregion HEADER */
+
+
+/* #region MAIN */
+
+
+/* #endregion MAIN */
+
+
+/* #region FOOTER */
+
+
+/* #endregion FOOTER */
