@@ -72,7 +72,9 @@ a{
     
 }
 /* #endregion UTILITY */
-
+.white_text{
+    color: white;
+}
 
 /* #region HEADER */
 #app_header{
@@ -85,7 +87,15 @@ a{
    .tag_lt{
     margin-right: 1rem;
    }
+   .tag_rt{
+    margin-left: 1rem;
+   }
 
+   .button_head{
+    background-color: #0061ff;
+    padding: 0.25rem 0.5rem;
+   
+   }
 
 }
 
