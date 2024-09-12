@@ -153,9 +153,6 @@ hr{
 /* #region DEBUG */
 
 
-
-
-
 /* #endregion DEBUG */
 
 
@@ -455,6 +452,19 @@ hr{
 
 
 /* #region FOOTER */
+footer{
+    background-color: black;
+
+    .column{
+        color: white;
+        padding: 1rem;
+    }
+
+
+
+}
+
+
 
 
 /* #endregion FOOTER */
