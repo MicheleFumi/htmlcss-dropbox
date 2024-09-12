@@ -52,6 +52,10 @@ min-width: 1220px;
     margin-left: 1rem;
 }
 
+.deadline{
+ color: #656262;
+
+}
 /* #endregion COMMON */
 
 /*#region FLEX SETTING */
