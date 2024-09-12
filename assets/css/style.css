@@ -90,7 +90,7 @@ min-width: 1220px;
 
 
 /* #region UTILITY */
-a{
+.a_custom{
     text-decoration: none;
     color: #656262;
     
@@ -255,19 +255,22 @@ a{
     font-size: .80rem;
    
 }
-.deadline{
-    margin-bottom: 3rem;
-}
+
 .card_button{
     padding: 0.5rem;
     padding: 0.5rem;
     justify-content: center;
     display: flex;
-    margin: 1rem;
+    margin: 2rem;
   }
+  
+  .buy_here{
+    margin-bottom: 3rem;
 }
 
 
+}
+ 
 /* #endregion MAIN */
 
 
