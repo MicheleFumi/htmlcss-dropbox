@@ -167,7 +167,12 @@ a{
 .trial:hover{
     background-color: #0090ff;
  }
-.hidden:hover{
+
+ .card_button:hover{
+    background-color: #0090ff;
+ }
+
+ .hidden:hover{
     border-bottom: 1px solid black;
     
 }
@@ -253,8 +258,16 @@ a{
 .deadline{
     margin-bottom: 3rem;
 }
-
+.card_button{
+    padding: 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+  }
 }
+
+
 /* #endregion MAIN */
 
 
