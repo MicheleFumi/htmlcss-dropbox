@@ -14,6 +14,9 @@ body{
 
 min-width: 1220px;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 
 .row{
     margin: 0 -1rem;
@@ -371,16 +374,44 @@ min-width: 1220px;
 .partners{
 
 .square{
-    width: 10rem;
+    width: 15rem;
+    
     aspect-ratio: 1.1;
 }
 
 .des{
-    background-color: red;
+    background-color:var(--drop_des_square)
 }
 .ariz{
-    background-color: red;
+    background-color:var(--drop_arizona_square);
 }
+.flo{
+    background-color:var(--drop_florida_square);
+}
+.top{
+    background-color: var(--drop_topps_square);
+}
+
+.centred{
+    background-color: var(--drop_descenter_square);
+}
+.world{
+    background-color: var(--drop_world_square);
+}
+.hea{
+    background-color: var(--drop_hearst_square);
+}
+.lon{
+    background-color: var(--drop_lonely_square);
+}
+.clear{
+    background-color: var(--drop_clear_square);
+}
+
+
+
+
+
 
 }
 
