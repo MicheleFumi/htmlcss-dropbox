@@ -16,8 +16,19 @@ min-width: 1220px;
 }
 
 .row{
-   /*  margin: 0 -1rem;
-    gap: 1rem; */
+   /*  margin: 0 -1rem; */
+   gap: 1rem; 
+  
+}
+.row_wrap{
+    /*  margin: 0 -1rem; */
+    gap: 6rem; 
+    flex-wrap:wrap ;
+ }
+ 
+
+.col2{
+    width: calc((100% / 12) * 2);
 }
 
 .col3{
@@ -322,7 +333,7 @@ min-width: 1220px;
 .contact{
     vertical-align: middle;
   padding: 0.5rem 1rem;
-  margin-left: 4rem;
+
 
 }
 
