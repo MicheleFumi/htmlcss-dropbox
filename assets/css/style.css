@@ -16,8 +16,8 @@ min-width: 1220px;
 }
 
 .row{
-    margin: 0 -1rem;
-    gap: 1rem;
+   /*  margin: 0 -1rem;
+    gap: 1rem; */
 }
 
 .col3{
@@ -177,7 +177,7 @@ min-width: 1220px;
 }
 
 .card_padding{
-    padding: 1rem;
+    padding: 2rem;
 }
 .card_margin{
     margin-left: 2rem;
@@ -322,12 +322,26 @@ min-width: 1220px;
 .contact{
     vertical-align: middle;
   padding: 0.5rem 1rem;
-  margin-left: 5rem;
+  margin-left: 4rem;
 
 }
 
+
+
+
+
+
 }
- 
+.partner_button{
+    text-decoration: none;
+    background-color: white;
+    border:0.5px solid black ;
+    padding: 0.5rem;
+    color: black;
+} 
+
+
+
 /* #endregion MAIN */
 
 
