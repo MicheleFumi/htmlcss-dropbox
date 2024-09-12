@@ -16,13 +16,13 @@ min-width: 1220px;
 }
 
 .row{
-   /*  margin: 0 -1rem; */
+    margin: 0 -1rem;
    gap: 1rem; 
   
 }
 .row_wrap{
-    /*  margin: 0 -1rem; */
-    gap: 6rem; 
+     margin: 0 -1rem;
+    margin-right: 1rem;
     flex-wrap:wrap ;
  }
  
@@ -186,7 +186,9 @@ min-width: 1220px;
 .mar_rt05{
    margin-right: .5rem;
 }
-
+.mar_rt1{
+    margin-right: 1rem;
+}
 .card_padding{
     padding: 2rem;
 }
@@ -337,7 +339,9 @@ min-width: 1220px;
 
 }
 
-
+.sub_details{
+    padding: 1rem;
+}
 
 
 
