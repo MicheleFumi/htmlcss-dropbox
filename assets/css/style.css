@@ -177,7 +177,6 @@ hr{
 
 }
 
-
 .container_80{
     width: 80%;
     margin: auto;
@@ -185,6 +184,13 @@ hr{
     margin-top: 4rem;
     margin-bottom: 4rem;
 
+}
+
+.container_80_no_bor_top{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 4rem;
 }
 .container_70_no_bor_top{
     width: 70%;
