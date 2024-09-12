@@ -61,7 +61,7 @@ min-width: 1220px;
 
 .card_full{
     margin-top: 2rem;
-    border: 0.5px solid black;
+    
 }
 
 
@@ -137,12 +137,16 @@ min-width: 1220px;
     width: 80%;
     margin: auto;
     padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
 }
 .container_70{
     width: 70%;
     margin: auto;
     padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .button{
     background-color: #0061ff;
@@ -156,8 +160,14 @@ min-width: 1220px;
 .light_text{
     color: var(--drop_light_text);
 }
+.mar_top_1{
+    margin-top: 1rem;
+}
 .mar_bot_1{
     margin-bottom:1rem;
+}
+.mar_bot_2{
+    margin-bottom: 2rem;
 }
 .mar_rt05{
    margin-right: .5rem;
@@ -268,10 +278,10 @@ min-width: 1220px;
 
 .sub_type{
     border-bottom: 0.5px solid black;
-    padding: 0.25rem;
+    padding: 0.5rem;
 }
 
-.col4{
+.border{
     border: 0.5px solid black;
 }
  .radio_invoice{
@@ -306,7 +316,12 @@ min-width: 1220px;
     padding-bottom: 1rem;
 }
 
+.contact{
+    vertical-align: middle;
+  padding: 0.5rem 1rem;
+  margin-left: 5rem;
 
+}
 
 }
  
