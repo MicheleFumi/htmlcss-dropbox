@@ -116,7 +116,16 @@ min-width: 1220px;
 :root{
     --drop_button: #0061ff; 
     --drop_jumbo_bg: #b4d0e7; 
-    --drop_light_text: #656262; 
+    --drop_des_square: #a2d39b; 
+    --drop_desbordo_square: #ceecc9; 
+    --drop_arizona_square: #62082b; 
+    --drop_florida_square: #0193cc; 
+    --drop_topps_square: #fe1d1d; 
+    --drop_descenter_square: #e8e9ea; 
+    --drop_world_square: #d40020; 
+    --drop_hearst_square: #b4d0e6; 
+    --drop_lonely_square: #0d2481; 
+    --drop_clear_square: #fed932; 
 
 
 }
@@ -355,6 +364,25 @@ min-width: 1220px;
     color: black;
 } 
 
+.link_teams{
+    padding-top:3rem ;
+}
+
+.partners{
+
+.square{
+    width: 10rem;
+    aspect-ratio: 1.1;
+}
+
+.des{
+    background-color: red;
+}
+.ariz{
+    background-color: red;
+}
+
+}
 
 
 /* #endregion MAIN */
