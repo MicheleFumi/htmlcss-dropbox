@@ -382,9 +382,8 @@ min-width: 1220px;
 .partners{
 
 .square{
-    width: 15rem;
-    
-    aspect-ratio: 1.1;
+    width: 50%;
+    aspect-ratio: 1/1;
 }
 
 .des{
@@ -417,7 +416,7 @@ min-width: 1220px;
 }
 
 .square_logo{
-    width: 8rem;
+   width: 50%;
     
 }
 
