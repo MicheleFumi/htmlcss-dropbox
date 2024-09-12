@@ -166,6 +166,17 @@ hr{
 .white_text{
     color: white;
 }
+
+.container_80foot{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 4rem;
+    
+
+}
+
+
 .container_80{
     width: 80%;
     margin: auto;
@@ -460,9 +471,24 @@ footer{
         padding: 1rem;
     }
 
+    .link_footer{
+        margin-bottom: 0.15rem ;
+    }
 
+    .anchor_footer{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .title_footer{
+        margin-bottom: 1rem;
+    }
 
 }
+
+
+
 
 
 
