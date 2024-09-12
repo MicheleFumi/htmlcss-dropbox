@@ -112,6 +112,14 @@ min-width: 1220px;
 .vertical_al{
     vertical-align: middle;
 }
+
+.flex_start{
+    justify-content: flex-start;
+}
+.flex_end{
+    justify-content: flex-end;
+}
+
 /*#endregion FLEX SETTING */
 
 
@@ -408,10 +416,14 @@ min-width: 1220px;
     background-color: var(--drop_clear_square);
 }
 
+.square_logo{
+    width: 10rem;
+}
 
 
-
-
+.height{
+    height: 3rem;
+}
 
 }
 
