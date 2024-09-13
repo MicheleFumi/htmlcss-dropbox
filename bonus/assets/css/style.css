@@ -415,6 +415,8 @@ hr{
 
 .partners{
 
+
+
 .square{
     width: 50%;
     aspect-ratio: 1/1;
@@ -462,6 +464,14 @@ hr{
 }
 
 }
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+
+}
+
 
 
 .call_to_action{

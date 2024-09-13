@@ -419,6 +419,13 @@ hr{
     width: 50%;
     aspect-ratio: 1/1;
 }
+.right{
+    flex-basis:40%
+}
+
+.left{
+    flex-basis:40%
+}
 
 .des{
     background-color:var(--drop_des_square)
