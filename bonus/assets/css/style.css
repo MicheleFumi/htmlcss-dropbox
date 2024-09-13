@@ -520,9 +520,23 @@ footer{
 
 }
 
-
-
-
-
-
 /* #endregion FOOTER */
+
+
+/* #region MEDIA QUERY */
+
+@media screen and (max-width: 568) {
+
+
+/* #region HEADER */
+
+
+
+/* #endregion HEADER */
+
+
+}
+
+
+
+/* #endregion MEDIA QUERY */
