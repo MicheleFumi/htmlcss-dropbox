@@ -198,7 +198,7 @@ hr{
 .container_70_no_bor_top{
     width: 70%;
     margin: auto;
-    padding: 1rem;
+    padding: 3rem;
     margin-bottom: 4rem;
 }
 .container_70{
@@ -415,11 +415,16 @@ hr{
 
 .partners{
 
-
-
 .square{
     width: 50%;
     aspect-ratio: 1/1;
+}
+.right{
+    flex-basis:53%
+}
+
+.left{
+    flex-basis:53%
 }
 
 .des{
@@ -439,6 +444,7 @@ hr{
 
 .centred{
     background-color: var(--drop_descenter_square);
+    padding: 2rem;
 }
 .world{
     background-color: var(--drop_world_square);
@@ -458,20 +464,21 @@ hr{
     
 }
 
+.logo_central{
+    width: 10rem;
+}
+
+.text_central{
+    font-size: 12px;
+}
+
 
 .height{
-    height: 3rem;
+    height: 2rem;
+    margin-top: 6rem;
 }
 
 }
-.left{
-    flex-basis: 50%;
-}
-.right{
-    flex-basis: 50%;
-
-}
-
 
 
 .call_to_action{
