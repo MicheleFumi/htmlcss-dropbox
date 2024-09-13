@@ -18,7 +18,10 @@ min-width: 1220px;
 hr{
     border: 0.5px solid #c1bcbc;
 }
-
+.hr_small{
+    width: 4rem;
+    margin-left: 2rem;
+}
 .wrap{
     flex-wrap: wrap;
 }
@@ -211,7 +214,8 @@ hr{
 
 .section_title{
     font-size: 2.5rem;
-    padding: 2rem 0rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .light_text{
@@ -300,6 +304,7 @@ hr{
 /* #region MAIN */
 .jumbotron{
     background-color: #b4d0e7;
+    height: 650px;
 
 
     .main_title{
@@ -316,7 +321,9 @@ hr{
     }
 
     
-
+    .arrow_down{
+        color: black;
+    }
 
 
 }
@@ -339,12 +346,12 @@ hr{
 
 
 .sub_type{
-    border-bottom: 0.5px solid black;
+    border-bottom: 1px solid #dbdbdb;
     padding: 0.5rem;
 }
 
 .border{
-    border: 0.5px solid black;
+    border: 1px solid #dbdbdb;
 }
  .radio_invoice{
     padding: 2rem 0rem;
@@ -418,6 +425,8 @@ hr{
 }
 .ariz{
     background-color:var(--drop_arizona_square);
+   
+
 }
 .flo{
     background-color:var(--drop_florida_square);
@@ -493,7 +502,6 @@ footer{
     }
 
 }
-
 
 
 
