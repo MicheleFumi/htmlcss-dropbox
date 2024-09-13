@@ -12,7 +12,7 @@ img{
 }
 body{
 
-min-width: 1220px;
+/* min-width: 1220px; */
 }
 
 hr{
@@ -525,14 +525,36 @@ footer{
 
 /* #region MEDIA QUERY */
 
-@media screen and (max-width: 568) {
+@media screen and (max-width: 320px) {
 
 
-/* #region HEADER */
+    /* #region HEADER */
+
+        #app_header{
+           /*  width: 20%; */
+        }
+
+       .mq_sm_order_1{
+        order: 1;
+        flex-direction: column;
+        display: flex;
+
+       }
+       .mq_sm_order_2{
+        order: 2;
+       }
+       .mq_sm_order_3{
+        order: 3;
+        flex-direction: column;
+        display: flex;
+       }
+       .mq_sm_order_4{
+        order: 4;
+        display: none;
+       }
 
 
-
-/* #endregion HEADER */
+    /* #endregion HEADER */
 
 
 }
