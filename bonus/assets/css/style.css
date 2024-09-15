@@ -532,6 +532,7 @@ footer{
 
         #app_header{
            /*  width: 20%; */
+           position: initial;
         }
 
        .mq_sm_order_1{
@@ -574,12 +575,26 @@ footer{
        }
     /* #endregion HEADER */
 
-     /* #region MAIN */
-       {
-        
-       }
+    /* #region MAIN */
+    
+    
+    .mq_sm_container_70 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: auto;
+    
+    }
 
-
+    .mq_sm_radio_right {
+        margin-right: 3rem !important;
+      }
+    
+    .mq_sm_d_block{
+        display: block;
+    }
+    .mq_sm_card_padding{
+        padding: 1.5rem;
+    }
 
      /* #endregion MAIN */
 
