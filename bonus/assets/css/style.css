@@ -620,7 +620,13 @@ footer{
         width: 95% !important;
     
         }
+        .mq_sm_padding_top{
+            padding: 2rem 0rem;
+        }
 
+        .mq_sm_nopadding{
+            padding: 0 !important;
+        }
      /* #endregion MAIN */
 
 
