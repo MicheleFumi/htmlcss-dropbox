@@ -554,12 +554,34 @@ footer{
        }
 
        .mq_sm_text_small{
-        font-weight: 3rem;
-        padding: 1rem;
+        font-size: 2rem !important;
+        padding: 0rem !important;
+       }
+       .mq_sm_padding{
+        padding:0rem 2.5rem;
+       }
+       .mq_sm_col12{
+        width: 100%;
+       }
+       .mq_sm_d_flex{
+        display: flex;
+       }
+       .mq_sm_justify_centre{
+        justify-content: center;
+       }
+       .mq_sm_display_none{
+        display: none;
+       }
+    /* #endregion HEADER */
+
+     /* #region MAIN */
+       {
+        
        }
 
 
-    /* #endregion HEADER */
+
+     /* #endregion MAIN */
 
 
 }
