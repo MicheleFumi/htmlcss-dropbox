@@ -595,6 +595,31 @@ footer{
     .mq_sm_card_padding{
         padding: 1.5rem;
     }
+    .mq_sm_row_wrap
+    {
+        margin-right: 0rem !important;
+    }
+
+    .mq_sm_col6{
+        width: calc((100% / 12) * 6);
+    }
+
+        .mq_sm_square{
+            width: 100% !important;
+        }
+        .mq_sm_flopic{
+            width: 73px;
+            height: 33px;
+            position: relative;
+            bottom: 20%;
+
+        }
+
+        .mq_sm_square_logo{
+   
+        width: 95% !important;
+    
+        }
 
      /* #endregion MAIN */
 
